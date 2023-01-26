@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
 
 :root {
@@ -10,7 +10,11 @@
   --clr-gold: rgb(159, 110, 2);
 }
 
-h1, p, h2, h3, h4 {
+h1,
+p,
+h2,
+h3,
+h4 {
   overflow: hidden;
 }
 
@@ -190,11 +194,19 @@ tr {
   align-items: center;
   margin-top: 10px;
   background: rgb(233, 233, 233);
-  width: 90px;
+  width: 99px;
+}
+
+.number {
+  text-align: center;
+}
+
+.plus {
+  margin-right: 5px;
 }
 
 .btn {
-  width: 25px;
+  width: 15px;
   cursor: pointer;
   transition: all 300ms;
 }
@@ -427,17 +439,16 @@ a {
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
-
 }
 
-.description-section-h2{
+.description-section-h2 {
   font-size: 25px;
   text-transform: uppercase;
   font-weight: 700;
   overflow: hidden;
 }
 
-.description-section-p{
+.description-section-p {
   width: 100%;
 }
 
@@ -455,7 +466,8 @@ a {
   font-weight: bold;
 }
 
-.menu-selected-p-l, .menu-selected-p-r{
+.menu-selected-p-l,
+.menu-selected-p-r {
   font: 18px;
   margin: 0px 40px 0px 40px;
 }
@@ -743,7 +755,7 @@ body {
 
 /* -------------------------MediaQueries------------------------- */
 
-@media screen and (max-width: 1620px){
+@media screen and (max-width: 1620px) {
   .imagen-jackets {
     width: 100%;
     height: 500px;
@@ -757,7 +769,6 @@ body {
 /*------------------products 1280px-----------------*/
 
 @media screen and (max-width: 1280px) {
-
   .description-section {
     width: 60%;
     margin: 0 auto;
@@ -766,15 +777,16 @@ body {
     overflow-x: hidden;
   }
 
-  .title__h2-snkrs{
+  .title__h2-snkrs {
     margin: 0px;
   }
 
-  .menu-selected-p-r{
+  .menu-selected-p-r {
     display: none;
   }
 
-  .products-jackets, .products {
+  .products-jackets,
+  .products {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
@@ -805,7 +817,6 @@ body {
 /*--------------Cart table y products 980px----------------*/
 
 @media screen and (max-width: 980px) {
-
   .cart__table {
     position: fixed;
     top: 0;
@@ -830,7 +841,8 @@ body {
     background: rgba(0, 0, 0, 0.5);
   }
 
-  .products-jackets, .products {
+  .products-jackets,
+  .products {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
@@ -919,7 +931,6 @@ body {
     z-index: 2;
   }
 
-
   .header__img {
     width: 170px;
     margin-left: 40px;
@@ -998,7 +1009,7 @@ body {
     align-items: center;
     margin-top: 15%;
   }
-  
+
   .navbar__h1 {
     text-align: center;
     font-size: 32px;
@@ -1080,12 +1091,11 @@ body {
 }
 
 @media screen and (max-width: 530px) {
-
-  .menu-selected{
+  .menu-selected {
     overflow: hidden;
   }
 
-  .title__h2-snkrs{
+  .title__h2-snkrs {
     margin: 0px;
   }
 
@@ -1122,7 +1132,8 @@ body {
     cursor: pointer;
   }
 
-  .products-jackets, .products {
+  .products-jackets,
+  .products {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: 0px;
@@ -1170,9 +1181,14 @@ body {
     transition: all 400ms;
   }
 
+  th,
+  td {
+    padding: 5px 5px;
+  }
+
   .item-img-src {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 160px;
   }
 }
 

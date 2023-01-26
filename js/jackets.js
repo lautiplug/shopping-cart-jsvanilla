@@ -8,7 +8,7 @@ function renderJackets() {
                   <div class="info-card">
                   <h4 class="card-title">${jacket.name}</h4>
                   <p class="precio">$${jacket.price}</p>
-                  <img src="../img/heart-card.png" alt="añadir al carrito" class="add-cart" onclick="addToCart(${jacket.id})">
+                  <img src="img/heart-card.png" alt="añadir al carrito" class="add-cart" onclick="addToCart(${jacket.id})">
                   </div>
           </div>
           `;

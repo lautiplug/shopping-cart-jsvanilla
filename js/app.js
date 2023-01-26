@@ -22,7 +22,7 @@ function renderProducts() {
                 <div class="info-card">
                 <h4 class="card-title">${product.name}</h4>
                 <p class="precio">$${product.price}</p>
-                <img src="../img/heart-card.png" alt="añadir al carrito" class="add-cart" onclick="addToCart(${product.id})">
+                <img src="img/heart-card.png" alt="añadir al carrito" class="add-cart" onclick="addToCart(${product.id})">
                 </div>
         </div>
         `;
@@ -108,7 +108,7 @@ function renderCartItems() {
                 <div class="carrito-titulo">${item.name}</div>
                 <div class="carrito-precio">$${item.price}</div>
                 <div class="units">
-                    <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.id})"> - </div>
+                    <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.id})"> --- </div>
                      <div class="number">${item.numberOfItems}</div>
                     <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.id})"> + </div>
                 </div>
