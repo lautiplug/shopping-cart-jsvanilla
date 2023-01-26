@@ -33,7 +33,7 @@ renderProducts();
 const titleSneakers = document.querySelector('.title')
 
 titleSneakers.innerHTML = `
-          <h2 class="title__h2-snkrs" id="title-h2-snkr">Sneakers ${products.length} productos</h2>
+          <h2 class="title__h2-snkrs" id="title-h2-snkr">${products.length} Productos</h2>
 ` 
 
 // Añadir al carrito

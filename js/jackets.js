@@ -19,5 +19,5 @@ function renderJackets() {
   const titleJackets = document.querySelector('.title')
 
   titleJackets.innerHTML = `
-            <h2 class="title__h2-snkrs" id="title-h2-snkr">Jackets ${jackets.length} productos</h2>
+            <h2 class="title__h2-snkrs" id="title-h2-snkr">${jackets.length} Productos</h2>
   ` 
