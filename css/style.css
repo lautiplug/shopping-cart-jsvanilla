@@ -1178,14 +1178,14 @@ body {
 
 @media screen and (max-width: 430px) {
   .buttonCheckout {
-    width: 80%;
+    width: 90%;
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 15px;
     letter-spacing: 0.7px;
     border: 1px solid black;
     outline: none;
-    margin: 20px 0px 20px 28px;
+    margin: 20px 15px 20px 15px;
     padding: 2px;
     cursor: pointer;
     background: #fff;
