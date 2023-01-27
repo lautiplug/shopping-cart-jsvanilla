@@ -101,21 +101,20 @@ function renderCartItems() {
   cart.forEach((item) => {
     const row = document.createElement("tr");
     row.innerHTML = `
-        <td>  
             <img class="item-img-src ss" src="${item.imgSrc}">
-        </td>
             <div class="container-carrito-items">
                 <div class="carrito-titulo">${item.name}</div>
-                <div class="carrito-precio">$${item.price}</div>
+                <div class="carrito-titulo">Color: ${item.color}</div>
                 <div class="units">
                     <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.id})"> - </div>
                      <div class="number">${item.numberOfItems}</div>
                     <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.id})"> + </div>
                 </div>
+                <div class="carrito-precio">$${item.price}</div>
+            </div>
+        <div>
+        <p class="delete-item" onclick="removeItemFromCart(${item.id})">Delete</p>
         </div>
-        <td>
-            <i class="fa-solid fa-trash-can delete-item" onclick="removeItemFromCart(${item.id})"></i>
-        </td>
         `;
     CartItemsElements.appendChild(row);
   });

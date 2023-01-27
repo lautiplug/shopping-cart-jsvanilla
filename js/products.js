@@ -4,6 +4,8 @@ const products = [
       "name": "Zapatillas Greca Odissea BLACK",
       "price": 549.99,
       "instock": 13,
+      "talle": '41',
+      "color": "Black",
       "imgSrc": "img/versace-1.avif"
     },
     {
@@ -11,6 +13,8 @@ const products = [
       "name": "Zapatillas Greca Odissea WHITE",
       "price": 549.99,
       "instock": 100,
+      "talle": '41',
+      "color": "White",
       "imgSrc": "img/versace-2.webp"
     },
     {
@@ -18,6 +22,8 @@ const products = [
       "name": "Zapatillas Odissea WHITE",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "White",
       "imgSrc": "img/versace-3.webp"
     },
     {
@@ -25,6 +31,8 @@ const products = [
       "name": "Zapatillas Odissea BLACK",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Black",
       "imgSrc": "img/versace-4.webp"
     },
     {
@@ -32,6 +40,8 @@ const products = [
       "name": "Zapatillas Greca Odissea ORANGE",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Orange",
       "imgSrc": "img/versace-5.webp"
     },
     {
@@ -39,6 +49,8 @@ const products = [
       "name": "Zapatillas Greca Odissea YELLOW",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Yellow",
       "imgSrc": "img/versace-6.webp"
     },
     {
@@ -46,6 +58,8 @@ const products = [
       "name": "Zapatillas Odissea BLACK Con Cristales",
       "price": 1789.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Black",
       "imgSrc": "img/versace-7.webp"
     },
     {
@@ -53,6 +67,8 @@ const products = [
       "name": "Zapatillas Odissea WHITE Con Cristales",
       "price": 1789.99,
       "instock": 100,
+      "talle": '41',
+      "color": "White",
       "imgSrc": "img/versace-8.webp"
     },
     {
@@ -60,6 +76,8 @@ const products = [
       "name": "Zapatillas Greca Odissea GOLD",
       "price": 549.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Gold",
       "imgSrc": "img/versace-9.avif"
     },
     {
@@ -67,6 +85,8 @@ const products = [
       "name": "Zapatillas Greca Odissea SILVER",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Silver",
       "imgSrc": "img/versace-10.webp"
     },
     {
@@ -74,6 +94,8 @@ const products = [
       "name": "Zapatillas Greca Odissea PURPLE",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Purple",
       "imgSrc": "img/versace-11.webp"
     },
     {
@@ -81,6 +103,8 @@ const products = [
       "name": "Zapatillas Greca Odissea FOREST GREEN",
       "price": 719.99,
       "instock": 100,
+      "talle": '41',
+      "color": "Green",
       "imgSrc": "img/versace-12.webp"
     }
   ]
