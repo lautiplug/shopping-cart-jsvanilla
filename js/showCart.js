@@ -1,7 +1,7 @@
 // Funciones para expandir el carrito
 const menuWhite = document.querySelector('.header__container-white')
 document.querySelector("#btn").addEventListener("click", show_cart);
-document.querySelector(".container-phone-menu").addEventListener("click", hide_cart);
+document.querySelector(".close-cart").addEventListener("click", hide_cart);
 
 const showCart = document.querySelector(".cart__table");
 const backgroundCart = document.querySelector(".container-phone-menu");
