@@ -22,7 +22,7 @@ function renderProducts() {
                 <div class="info-card">
                 <h4 class="card-title">${product.name}</h4>
                 <p class="precio">$${product.price}</p>
-                <img src="img/heart-card.png" alt="añadir al carrito" class="add-cart" onclick="addToCart(${product.id})">
+                <img src="img/carrito.png" alt="añadir al carrito" class="add-cart" onclick="addToCart(${product.id})">
                 </div>
         </div>
         `;
@@ -30,11 +30,11 @@ function renderProducts() {
 }
 renderProducts();
 
-const titleSneakers = document.querySelector('.title')
+const titleSneakers = document.querySelector(".title");
 
 titleSneakers.innerHTML = `
           <h2 class="title__h2-snkrs" id="title-h2-snkr">${products.length} Productos</h2>
-` 
+`;
 
 // Añadir al carrito
 
@@ -88,9 +88,17 @@ function renderSubTotal() {
     totalPrice = totalPrice + item.price * item.numberOfItems;
     totalItems = totalItems + item.numberOfItems;
   });
+
   subtotalElements.innerHTML = `
         Subtotal (${totalItems} items): $${totalPrice.toFixed(2)} | Checkout
     `;
+
+    if (!cart.length) {
+      subtotalElements.innerHTML = `
+        Your cart is empty!
+      `;
+    }
+  
   totalItemsInCartCount.innerText = totalItems;
   console.log(totalPrice);
 }
@@ -124,13 +132,6 @@ function renderCartItems() {
 function removeItemFromCart(id) {
   cart = cart.filter((item) => item.id !== id);
   updateCart();
-
-  // si el carrito esta vacio mostrará este msj
-  if (!cart.length) {
-    subtotalElements.innerHTML = `
-            <a href="sneakers.html" class="cart-empty">Cart is empty, go to buy!</a>
-        `;
-  }
 }
 // cambiar el numero de items para un item
 
