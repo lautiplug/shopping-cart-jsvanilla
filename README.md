@@ -8,8 +8,7 @@ _Este proyecto está construido con html, css y javascript, también utilicé Ca
 
 * [HTML](https://html.com/)
 * [CSS](https://getbootstrap.com/)
-* [SASS](https://sass-lang.com/)
-* [Bootstrap](https://www.w3schools.com/css/)
+* [Javascript](https://www.javascript.com/)
 
 
 ## Autor ✒️
