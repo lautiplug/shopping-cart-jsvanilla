@@ -1,4 +1,4 @@
-# Shopping cart with HTML, CSS (SASS AND BOOTSTRAP)
+# Shopping cart with HTML, CSS and JavaScript
 
 _Este proyecto es una inspiración de la marca reconocida VERSACE, sin fines de lucro y con caracter educativo_
 
